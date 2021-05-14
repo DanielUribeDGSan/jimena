@@ -1,3 +1,8 @@
+body {
+  font-family: 'Mulish', sans-serif !important;
+}
+
+/** Banner **/
 .fondo__slider {
   background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
@@ -11,6 +16,7 @@
   width: 100% !important;
 }
 
+/** Cuadros de imagenes **/
 .centrar__cuadro {
   display: flex;
   align-items: center;
@@ -25,10 +31,11 @@
 }
 
 .p__cuadro {
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .more__cuadro {
+  transition: all ease .45s;
   color: #ffffff;
   border-bottom: 2px solid #ffffff;
   font-weight: 600;
@@ -36,9 +43,90 @@
   font-size: 25px;
 }
 
+.more__cuadro:hover {
+  transition: all ease .45s;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding: 5px;
+}
+
+/** Cuadros de imagenes 2**/
+.title__cuadro2 {
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+.p__cuadro2 {
+  letter-spacing: 3px;
+}
+
+/** Testimonial **/
+.img__anillo {
+  width: 50%;
+}
+
+.testimonial__text {
+  font-size: 4rem;
+}
+
+/** Productos **/
+.title__productos {
+  font-size: 8rem;
+  border-bottom: 5px solid #000000;
+}
+
+.see__more__productos {
+  color: #000000;
+  font-size: 2rem;
+  margin-top: 5rem;
+  border-bottom: 2px solid #000000;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.see__more__productos:hover {
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 5px;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+/** Jimena **/
+.title__jimena {
+  color: #806c69;
+  letter-spacing: 5px;
+  font-size: 5rem;
+}
+
+.text__jimena {
+  width: 75%;
+  margin-top: 30px;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 46px;
+}
+
+.instagram__text {
+  font-size: 7rem;
+}
+
 /** Utilidades **/
+.centrar-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .espacio__50 {
   height: 50px;
+}
+
+.espacio__100 {
+  height: 100px;
 }
 
 .min__h100 {
