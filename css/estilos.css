@@ -1,0 +1,54 @@
+.fondo__slider {
+  background-image: url('../images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100% !important;
+  min-height: 100vh !important;
+}
+
+.slick-list {
+  width: 100% !important;
+}
+
+.centrar__cuadro {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0px 55px !important;
+}
+
+.title__cuadro {
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+.p__cuadro {
+  letter-spacing: 4px;
+}
+
+.more__cuadro {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+/** Utilidades **/
+.espacio__50 {
+  height: 50px;
+}
+
+.min__h100 {
+  min-height: 100vh;
+}
+
+.min__h50 {
+  min-height: 90vh;
+}
+
+.bg-cafe {
+  background-color: #806b68;
+}
