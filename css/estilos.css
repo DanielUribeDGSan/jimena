@@ -121,6 +121,11 @@ body {
   align-items: center;
 }
 
+.centrar {
+  display: block;
+  margin: 0 auto;
+}
+
 .espacio__50 {
   height: 50px;
 }
@@ -139,4 +144,83 @@ body {
 
 .bg-cafe {
   background-color: #806b68;
+}
+
+.ocultar-escritorio {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mostrar-movil {
+    display: block;
+  }
+
+  .min__h50 {
+    min-height: 50vh;
+  }
+
+  .centrar__cuadro {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 55px !important;
+  }
+
+  .text__jimena {
+    font-size: 2.2rem;
+  }
+
+  .ocultar-movil {
+    display: none;
+  }
+}
+
+@media (max-width: 751px) {
+  .instagram__text {
+    font-size: 5rem;
+  }
+
+  .title__jimena {
+    font-size: 3.5rem;
+  }
+
+  .text__jimena {
+    font-size: 1.5rem;
+    line-height: 34px;
+  }
+
+  .img__anillo__product {
+    width: 70%;
+  }
+
+  .espacio__100 {
+    height: 50px;
+  }
+
+  .img__anillo {
+    width: 90%;
+  }
+
+  .slick-list {
+    height: 733px !important;
+  }
+
+  .testimonial__text {
+    font-size: 2rem;
+  }
+
+  .title__productos {
+    font-size: 5rem;
+    border-bottom: 5px solid #000000;
+  }
+
+  .centrar__cuadro {
+    display: flex;
+    align-items: center;
+    padding: 55px 55px !important;
+  }
+
+  .ocultar-movil {
+    display: none;
+  }
 }
