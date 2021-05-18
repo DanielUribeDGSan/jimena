@@ -1,258 +1,326 @@
 body {
-  font-family: 'Mulish', sans-serif !important;
+    font-family: 'Mulish', sans-serif !important;
 }
 
+
 /** Banner **/
+
 .fondo__slider {
-  background-image: url('../images/banner.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100% !important;
-  min-height: 100vh !important;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    min-height: 100vh !important;
 }
 
 .slick-list {
-  width: 100% !important;
+    width: 100% !important;
 }
+
 
 /** Cuadros de imagenes **/
+
 .centrar__cuadro {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  padding: 0px 55px !important;
-}
-
-.title__cuadro {
-  font-weight: 600;
-  letter-spacing: 5px;
-  font-size: 25px;
-}
-
-.p__cuadro {
-  letter-spacing: 3px;
-}
-
-.more__cuadro {
-  transition: all ease .45s;
-  color: #ffffff;
-  border-bottom: 2px solid #ffffff;
-  font-weight: 600;
-  letter-spacing: 5px;
-  font-size: 25px;
-}
-
-.more__cuadro:hover {
-  transition: all ease .45s;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  font-weight: 600;
-  letter-spacing: 5px;
-  padding: 5px;
-}
-
-/** Cuadros de imagenes 2**/
-.title__cuadro2 {
-  font-weight: 600;
-  letter-spacing: 5px;
-  font-size: 25px;
-}
-
-.p__cuadro2 {
-  letter-spacing: 3px;
-}
-
-/** Testimonial **/
-.img__anillo {
-  width: 50%;
-}
-
-.testimonial__text {
-  font-size: 4rem;
-}
-
-/** Productos **/
-.title__productos {
-  font-size: 8rem;
-  border-bottom: 5px solid #000000;
-}
-
-.see__more__productos {
-  color: #000000;
-  font-size: 2rem;
-  margin-top: 5rem;
-  border-bottom: 2px solid #000000;
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
-}
-
-.see__more__productos:hover {
-  color: #000000;
-  border: 2px solid #000000;
-  padding: 5px;
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
-}
-
-/** Jimena **/
-.title__jimena {
-  color: #806c69;
-  letter-spacing: 5px;
-  font-size: 5rem;
-}
-
-.text__jimena {
-  width: 75%;
-  margin-top: 30px;
-  font-size: 3rem;
-  font-weight: 100;
-  line-height: 46px;
-}
-
-.instagram__text {
-  font-size: 7rem;
-}
-
-/** Página de productos **/
-.min__prroduct__h50 {
-  min-height: 55rem;
-}
-
-.title__prroduct {
-  font-size: 8rem;
-  text-align: center;
-  letter-spacing: 24px;
-}
-
-.info__product {
-  letter-spacing: 3px;
-  line-height: 49px;
-  font-size: 2.3rem;
-  color: #000000d9;
-  font-weight: 100;
-}
-
-.row__product {
-  margin-top: 7rem;
-}
-
-/** Bostrap **/
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-  width: 95%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/** Utilidades **/
-.centrar-f {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.centrar {
-  display: block;
-  margin: 0 auto;
-}
-
-.espacio__50 {
-  height: 50px;
-}
-
-.espacio__100 {
-  height: 100px;
-}
-
-.min__h100 {
-  min-height: 100vh;
-}
-
-.min__h50 {
-  min-height: 90vh;
-}
-
-.bg-cafe {
-  background-color: #806b68;
-}
-
-.ocultar-escritorio {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .mostrar-movil {
-    display: block;
-  }
-
-  .min__h50 {
-    min-height: 50vh;
-  }
-
-  .centrar__cuadro {
     display: flex;
     align-items: center;
     justify-content: end;
     padding: 0px 55px !important;
-  }
+}
 
-  .text__jimena {
-    font-size: 2.2rem;
-  }
+.title__cuadro {
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
 
-  .ocultar-movil {
+.p__cuadro {
+    letter-spacing: 3px;
+}
+
+.more__cuadro {
+    transition: all ease .45s;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.more__cuadro:hover {
+    transition: all ease .45s;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+
+
+/** Cuadros de imagenes 2**/
+
+.title__cuadro2 {
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.p__cuadro2 {
+    letter-spacing: 3px;
+}
+
+
+/** Testimonial **/
+
+.img__anillo {
+    width: 50%;
+}
+
+.testimonial__text {
+    font-size: 4rem;
+}
+
+
+/** Productos **/
+
+.title__productos {
+    font-size: 8rem;
+    border-bottom: 5px solid #000000;
+}
+
+.see__more__productos {
+    color: #000000;
+    font-size: 2rem;
+    margin-top: 5rem;
+    border-bottom: 2px solid #000000;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.see__more__productos:hover {
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 5px;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+
+/** Jimena **/
+
+.title__jimena {
+    color: #806c69;
+    letter-spacing: 5px;
+    font-size: 5rem;
+}
+
+.text__jimena {
+    width: 75%;
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 46px;
+}
+
+.instagram__text {
+    font-size: 7rem;
+}
+
+
+/** Página de productos **/
+
+.min__prroduct__h50 {
+    min-height: 55rem;
+}
+
+.title__prroduct {
+    font-size: 8rem;
+    text-align: center;
+    letter-spacing: 24px;
+}
+
+.info__product {
+    letter-spacing: 3px;
+    line-height: 49px;
+    font-size: 2.3rem;
+    color: #000000d9;
+    font-weight: 100;
+}
+
+.title__contact {
+    font-size: 4rem !important;
+    letter-spacing: 12px !important;
+    font-weight: 100 !important;
+    margin: 0 0 41px !important;
+    color: #000000 !important;
+}
+
+.row__product {
+    margin-top: 7rem;
+}
+
+.espacio__contact {
+    margin-top: 5rem;
+}
+
+.comment-sec .leave-comment .comment-form .form-control {
+    font-size: 25px;
+    line-height: 18px;
+    color: #919090;
+    width: 100%;
+    font-weight: 400;
+    background: none;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 0px 0px 5px 5px;
+    outline: none;
+    height: 31px;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+/* Botones */
+
+.btn__contact {
+    display: block;
+    margin: auto;
+    width: 40%;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+    background-color: #846c6c;
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    padding: 18px;
+    font-weight: 100;
+    border: 0px;
+    margin-top: 4rem;
+}
+
+
+/** Bostrap **/
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 95%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/** Menu **/
+
+.espacio__menu__r {
+    margin-right: 40px;
+}
+
+.espacio__menu__l {
+    margin-left: 40px;
+}
+
+
+/** Utilidades **/
+
+.centrar-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrar {
+    display: block;
+    margin: 0 auto;
+}
+
+.espacio__50 {
+    height: 50px;
+}
+
+.espacio__100 {
+    height: 100px;
+}
+
+.min__h100 {
+    min-height: 100vh;
+}
+
+.min__h50 {
+    min-height: 90vh;
+}
+
+.bg-cafe {
+    background-color: #806b68;
+}
+
+.ocultar-escritorio {
     display: none;
-  }
+}
+
+@media (max-width: 768px) {
+    .mostrar-movil {
+        display: block;
+    }
+    .min__h50 {
+        min-height: 50vh;
+    }
+    .centrar__cuadro {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 0px 55px !important;
+    }
+    .text__jimena {
+        font-size: 2.2rem;
+    }
+    .ocultar-movil {
+        display: none;
+    }
 }
 
 @media (max-width: 751px) {
-  .instagram__text {
-    font-size: 5rem;
-  }
-
-  .title__jimena {
-    font-size: 3.5rem;
-  }
-
-  .text__jimena {
-    font-size: 1.5rem;
-    line-height: 34px;
-  }
-
-  .img__anillo__product {
-    width: 70%;
-  }
-
-  .espacio__100 {
-    height: 50px;
-  }
-
-  .img__anillo {
-    width: 90%;
-  }
-
-  .slick-list {
-    height: 733px !important;
-  }
-
-  .testimonial__text {
-    font-size: 2rem;
-  }
-
-  .title__productos {
-    font-size: 5rem;
-    border-bottom: 5px solid #000000;
-  }
-
-  .centrar__cuadro {
-    display: flex;
-    align-items: center;
-    padding: 55px 55px !important;
-  }
-
-  .ocultar-movil {
-    display: none;
-  }
+    .instagram__text {
+        font-size: 5rem;
+    }
+    .title__jimena {
+        font-size: 3.5rem;
+    }
+    .text__jimena {
+        font-size: 1.5rem;
+        line-height: 34px;
+    }
+    .img__anillo__product {
+        width: 70%;
+    }
+    .espacio__100 {
+        height: 50px;
+    }
+    .img__anillo {
+        width: 90%;
+    }
+    .slick-list {
+        height: 733px !important;
+    }
+    .testimonial__text {
+        font-size: 2rem;
+    }
+    .title__productos {
+        font-size: 5rem;
+        border-bottom: 5px solid #000000;
+    }
+    .centrar__cuadro {
+        display: flex;
+        align-items: center;
+        padding: 55px 55px !important;
+    }
+    .ocultar-movil {
+        display: none;
+    }
 }
