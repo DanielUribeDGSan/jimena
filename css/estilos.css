@@ -114,6 +114,38 @@ body {
   font-size: 7rem;
 }
 
+/** Página de productos **/
+.min__prroduct__h50 {
+  min-height: 55rem;
+}
+
+.title__prroduct {
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 24px;
+}
+
+.info__product {
+  letter-spacing: 3px;
+  line-height: 49px;
+  font-size: 2.3rem;
+  color: #000000d9;
+  font-weight: 100;
+}
+
+.row__product {
+  margin-top: 7rem;
+}
+
+/** Bostrap **/
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 95%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /** Utilidades **/
 .centrar-f {
   display: flex;
