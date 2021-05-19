@@ -227,12 +227,53 @@ body {
 }
 
 
+/* Modales */
+
+.fade:not(.show) {
+    opacity: inherit;
+}
+
+.modal-backdrop {
+    opacity: 0.9 !important;
+    background: #000000 !important;
+}
+
+.modal-dialog {
+    margin-top: 70px;
+}
+
+.modal-header .close {
+    position: absolute;
+    right: -6px;
+    z-index: 9;
+    padding: 1rem;
+    margin: -16px 0px 0px;
+    font-size: 4rem;
+    opacity: 1;
+    height: auto;
+    outline: #ffffff;
+}
+
+
 /** Utilidades **/
+
+.h-35 {
+    height: 40px;
+}
+
+.no-border-b {
+    border-bottom: 0px;
+}
 
 .centrar-f {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.centrar-f2 {
+    display: flex;
+    justify-content: center;
 }
 
 .centrar {
@@ -262,6 +303,10 @@ body {
 
 .ocultar-escritorio {
     display: none;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

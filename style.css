@@ -670,7 +670,7 @@ a:focus {
 -------------------------------------------------------------------*/
 
 .logo {
-    width: 38%;
+    width: 7%;
     float: left;
     margin: 0 10px 0 0;
     padding: 15px 0 0;
@@ -970,7 +970,7 @@ a:focus {
 
 #nav {
     position: absolute;
-    top: 100%;
+    top: -75%;
     right: 0;
     left: 0;
     width: 100%;
@@ -982,6 +982,7 @@ a:focus {
 }
 
 #nav>ul {
+    width: 100%;
     font-size: 14px;
     line-height: 16px;
     -webkit-transition: all .25s linear;
@@ -997,14 +998,18 @@ a:focus {
     overflow-y: auto;
 }
 
-#nav>ul>li {
+#nav>ul>div>li {
+    text-align: center;
     margin: 0 0 20px;
     position: relative;
     z-index: 999;
+    font-size: 4rem;
+    margin-top: 3rem;
+    line-height: 70px;
 }
 
-#nav>ul>li:hover>.drop,
-#nav>ul>li:hover>.drop-holder {
+#nav>ul>div>li:hover>.drop,
+#nav>ul>div>li:hover>.drop-holder {
     opacity: 1;
     visibility: visible;
     -webkit-transition: all .25s linear;
@@ -1013,16 +1018,17 @@ a:focus {
     -ms-transform: translateY(0);
     transform: translateY(0);
     display: block;
+    color: red;
 }
 
-#nav>ul>li>a {
+#nav>ul>div>li>a {
     text-decoration: none;
     text-transform: uppercase;
     -webkit-transition: all .25s linear;
     transition: all .25s linear;
 }
 
-#nav>ul>li>.drop {
+#nav>ul>div>li>.drop {
     opacity: 1;
     visibility: visible;
     position: static;
@@ -1039,13 +1045,13 @@ a:focus {
     box-shadow: 0 9px 24px 0 rgba(172, 171, 171, .75);
 }
 
-#nav>ul>li>.drop>li {
+#nav>ul>div>li>.drop>li {
     margin: 0;
     display: block;
     padding: 10px 16px 10px 23px;
 }
 
-#nav>ul>li>.drop>li:hover>.drop-down {
+#nav>ul>div>li>.drop>li:hover>.drop-down {
     opacity: 1;
     visibility: visible;
     display: block;
@@ -1056,20 +1062,20 @@ a:focus {
     transform: translateY(0);
 }
 
-#nav>ul>li>.drop>li>a {
+#nav>ul>div>li>.drop>li>a {
     text-transform: capitalize;
     display: block;
     text-decoration: none;
     color: #888;
 }
 
-#nav>ul>li>.drop>li>a>.arrow_carrot-right {
+#nav>ul>div>li>.drop>li>a>.arrow_carrot-right {
     float: right;
     font-size: 18px;
     line-height: 20px;
 }
 
-#nav>ul>li>.drop>li>.drop-down {
+#nav>ul>div>li>.drop>li>.drop-down {
     box-shadow: 0 9px 24px 0 rgba(172, 171, 171, .75);
     position: static;
     background: #fff;
@@ -1086,20 +1092,20 @@ a:focus {
     background: #fff;
 }
 
-#nav>ul>li>.drop>li>.drop-down>li {
+#nav>ul>div>li>.drop>li>.drop-down>li {
     margin: 0;
     display: block;
     padding: 10px 16px 10px 23px;
 }
 
-#nav>ul>li>.drop>li>.drop-down>li>a {
+#nav>ul>div>li>.drop>li>.drop-down>li>a {
     text-transform: capitalize;
     display: block;
     text-decoration: none;
     color: #888;
 }
 
-#nav>ul>li>.drop-holder {
+#nav>ul>div>li>.drop-holder {
     position: static;
     padding: 23px 20px 20px 22px;
     opacity: 1;
@@ -1115,28 +1121,28 @@ a:focus {
     box-shadow: 0 9px 24px 0 rgba(172, 171, 171, .75);
 }
 
-#nav>ul>li>.drop-holder .coll {
+#nav>ul>div>li>.drop-holder .coll {
     width: 100%;
 }
 
-#nav>ul>li>.drop-holder .coll.coll-2 {
+#nav>ul>div>li>.drop-holder .coll.coll-2 {
     width: 100%;
 }
 
-#nav>ul>li>.drop-holder .coll .title {
+#nav>ul>div>li>.drop-holder .coll .title {
     display: block;
     margin: 0 0 22px;
 }
 
-#nav>ul>li>.drop-holder .coll ul li {
+#nav>ul>div>li>.drop-holder .coll ul div li {
     margin: 0 0 22px;
 }
 
-#nav>ul>li>.drop-holder .coll ul li a {
+#nav>ul>div>li>.drop-holder .coll ul div li a {
     text-decoration: none;
 }
 
-#nav>ul>li>.drop-holder .coll .txt {
+#nav>ul>div>li>.drop-holder .coll .txt {
     font-size: 24px;
     line-height: 26px;
     display: inline-block;
@@ -1144,7 +1150,7 @@ a:focus {
     margin: 0 0 4px;
 }
 
-#nav>ul>li>.drop-holder .coll .offer-sale {
+#nav>ul>div>li>.drop-holder .coll .offer-sale {
     font-size: 48px;
     line-height: 50px;
     margin: -7px 0 0;
@@ -1152,26 +1158,32 @@ a:focus {
     vertical-align: bottom;
 }
 
-#nav>ul>li>.drop-holder .coll .txt-about {
+#nav>ul>div>li>.drop-holder .coll .txt-about {
     display: block;
     line-height: 24px;
     padding: 10px 0 0;
     margin: 0 0 42px;
 }
 
-#nav>ul>li .btn-more {
+#nav>ul>div>li .btn-more {
     font-size: 16px;
     line-height: 18px;
     float: left;
 }
 
-#nav>ul>li .img-holder {
+#nav>ul>div>li .img-holder {
     width: 150px;
     margin: 20px 0;
 }
 
 #nav>ul a {
     color: #676666;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+#nav>ul a:hover {
+    color: #c99035;
     -webkit-transition: all .25s linear;
     transition: all .25s linear;
 }
@@ -4120,7 +4132,7 @@ a:focus {
     overflow: hidden;
 }
 
-.comment-sec ul li {
+.comment-sec ul div li {
     border-bottom: 1px solid #d4d4d4;
     overflow: hidden;
     display: block;
@@ -4728,11 +4740,17 @@ a:focus {
 }
 
 @media (min-width: 768px) {
+    .logo {
+        width: 38%;
+    }
+    #nav {
+        top: -91%;
+    }
     .commentlist-item .commentlist-item {
         padding: 0 0 0 2em;
     }
     .logo {
-        width: 36px;
+        width: 34px;
         padding: 0;
     }
     .submit-form {
@@ -5436,10 +5454,10 @@ a:focus {
     #nav {
         width: 100%;
     }
-    #nav>ul>li {
+    #nav>ul>div>li {
         margin: 0 37px 0 0;
     }
-    #nav>ul>li .img-holder {
+    #nav>ul>div>li .img-holder {
         margin: -59px -7px 0 130px;
         width: 150px;
     }
