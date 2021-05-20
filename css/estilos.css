@@ -255,6 +255,19 @@ body {
 }
 
 
+/* Producto */
+
+.title__p {
+    letter-spacing: 10px;
+    font-weight: 100;
+    margin-top: 7rem;
+}
+
+.img__p {
+    width: 60%;
+}
+
+
 /** Utilidades **/
 
 .h-35 {
