@@ -234,12 +234,22 @@ body {
 }
 
 .modal-backdrop {
+    z-index: 50;
     opacity: 0.9 !important;
     background: #000000 !important;
 }
 
+.modal {
+    z-index: 60;
+}
+
 .modal-dialog {
+    z-index: 60;
     margin-top: 70px;
+}
+
+.modal-content {
+    border-radius: 10px;
 }
 
 .modal-header .close {
@@ -265,6 +275,22 @@ body {
 
 .img__p {
     width: 60%;
+}
+
+
+/* Imagen zoom  */
+
+.zoomWindowContainer div {
+    border-radius: 10px;
+    border: 0px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    z-index: 80 !important;
+    position: fixed !important;
+    width: 400px !important;
+    height: 400px !important;
+    left: 65% !important;
+    top: 25% !important;
 }
 
 
@@ -344,6 +370,17 @@ body {
 }
 
 @media (max-width: 751px) {
+    .min__product__md {
+        height: 42rem;
+    }
+    .title__prroduct {
+        font-size: 5rem;
+    }
+    .info__product {
+        letter-spacing: 1px;
+        line-height: 39px;
+        font-size: 1.8rem;
+    }
     .instagram__text {
         font-size: 5rem;
     }

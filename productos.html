@@ -18,17 +18,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="./css/bootstrap.css?ver=1.0.2">
+    <link rel="stylesheet" href="./css/bootstrap.css?ver=1.0.3">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="./css/fonts.css?ver=1.0.2">
+    <link rel="stylesheet" href="./css/fonts.css?ver=1.0.3">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="./css/animate.css?ver=1.0.2">
+    <link rel="stylesheet" href="./css/animate.css?ver=1.0.3">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="./style.css?ver=1.0.2">
+    <link rel="stylesheet" href="./style.css?ver=1.0.3">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="./css/color/color.css?ver=1.0.2">
+    <link rel="stylesheet" href="./css/color/color.css?ver=1.0.3">
     <!-- Estilos -->
-    <link rel="stylesheet" href="./css/estilos.css?ver=1.0.2">
+    <link rel="stylesheet" href="./css/estilos.css?ver=1.0.3">
 </head>
 
 <body>
@@ -94,11 +94,11 @@
             <!-- main-banner of the page -->
             <section class="wow fadeInUp" data-wow-delay="0.4s">
                 <div class="container-fluid">
-                    <div class="row min__prroduct__h50 p-0 m-0">
-                        <div class="col-6 min__prroduct__h50 p-0 m-0">
+                    <div class="row min__prroduct__h50 min__product__md p-0 m-0">
+                        <div class="col-lg-6 col-md-12 col-12 min__product__md p-0 m-0">
                             <img src="./images/hand.jpg" class="img-fluid h-100" alt="jimena said">
                         </div>
-                        <div class="col-6 p-0 m-0 centrar-f">
+                        <div class="col-lg-6 col-md-12 col-12 mt-lg-0 mt-md-5 mt-5 p-0 m-0 centrar-f">
                             <div class="">
                                 <h1 class="m-0 p-0 title__prroduct">Lorem<br>ipsum</h1>
                             </div>
@@ -191,18 +191,23 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <img src="./images/producto/producto.jpg" class="img-fluid" alt="jimena said">
+                        <img src="./images/producto/producto.jpg" data-zoom-image="./images/producto/producto.jpg" class="img-fluid zoom" alt="jimena said">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- include jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
     <!-- include jQuery -->
-    <script src="js/plugins.js"></script>
+    <script src="./js/plugins.js"></script>
     <!-- include jQuery -->
-    <script src="js/jquery.main.js"></script>
+    <script src="./js/jquery.main.js"></script>
+    <script src="./js/jquery.zoom.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/igorlino/elevatezoom-plus/1.1.6/src/jquery.ez-plus.js"></script>
+    <script>
+        $(".zoom").ezPlus();
+    </script>
 </body>
 
 </html>
